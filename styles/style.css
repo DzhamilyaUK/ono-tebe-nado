@@ -104,7 +104,6 @@
     line-height: 100px;
     font-size: 100px;
     font-weight: 700;
-    min-height: 355px;
     width: 100%;
     margin-bottom: 135px;
     color: #FFFFFF;
@@ -193,7 +192,6 @@
     line-height: 47px;
     letter-spacing: 0%;
     width: 120px;
-    min-height: 55px;
     margin: 0px 0px -10px 40px;
     text-align: left;
     text-transform: uppercase;
@@ -205,6 +203,7 @@
     justify-content: space-between;
     align-content: space-between;
     flex-grow: 1;
+    flex-wrap: wrap;
   }
   
   .lots__card-list-item {
@@ -231,7 +230,7 @@
     z-index: 1;
     width: 334px;
     height: 100%;
-    /*gap: 27px 25px;*/
+    
   }
   
   .card_type_film {
@@ -327,25 +326,16 @@
     text-align: left;
     gap: 24px;
     color: #000000;
-    padding-top: 9px;
-        
+    letter-spacing: 0.002em;
   }
-  
-  .about__text-slightly-extended {
-    letter-spacing: 0.005em;
-  }
-  
-  .about__text-adjusted-interlining {
-    line-height: 24.5px;
-  }
-  
-  
+   
   .footer {
     display: grid;
     grid-template-columns: 1fr 149px 1fr;
     gap: 185px;
     justify-items: space-between;
     width: 100%;
+    margin-bottom: 88px;
   }
   
   .footer__menu {
